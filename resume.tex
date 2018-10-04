@@ -1,0 +1,302 @@
+%-------------------------
+% Resume in Latex
+% Author : Sourabh Bajaj - Modified by Kulsoom Abdullah
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+%this option hides the links, that is, links are the same color as the document text
+%\usepackage[hidelinks]{hyperref}
+\usepackage[colorlinks=true, urlcolor=cyan]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+
+\usepackage{natbib}
+\usepackage{bibentry}
+
+
+  
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+  \nobibliography{resume} %resume.bib
+  \bibliographystyle{unsrt}
+  
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%  \textbf{\href{https://www.linkedin.com/in/kulsoomabdullah}{\Large Kulsoom Abdullah, PhD}} & Email : \href{mailto:kulsoom@gatech.edu}{kulsoom@gatech.edu}\\
+  \textbf{{\Large Kulsoom Abdullah, PhD}} & Email : \href{mailto:kulsoom@gatech.edu}{kulsoom@gatech.edu}\\
+  Profile websites: \href{https://www.linkedin.com/in/kulsoomabdullah}{LinkedIn},
+  \href{https://github.com/kulsoom-abdullah}{Github}, 
+   \href{ https://scholar.google.com/citations?user=-hS4doQAAAAJ&hl=en}{Google Scholar}, 
+  \href{https://www.meetup.com/members/88202732/} {Meetup}, \href{http://liftingcovered.com/}{Personal}
+  & Mobile : +1-XYZ-123-4567 \\
+\end{tabular*}
+
+
+%-------- SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+  \itemsep0em 
+    \item{
+      \textbf{Computer Languages \& Tools}{: Python (Numpy/Scipy/Matplotlib/Pandas, Jupyter/IPython, Hadoop/MapReduce, Sklearn), 
+Spark (PySpark and Scala), Hive SQL, GitHub, SQLITE, Java, Wiki, JOGL (Java OpenGL extensions), HTML, C, Hping/Tcl, 
+Sockets LaTeX 2e. Proficiency in: AWS, H2O, R, D3.js}
+      }
+
+         \item{
+      \textbf{Software}{: VIM, Tableau, Wireshark, Snort IDS, Qualnet, OPNET}
+      }
+      \hfill
+
+   \item{
+         \textbf{Foreign Languages}{: Pashto (basic proficiency), Urdu \& Arabic (limited proficiency)}
+         }
+   
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, GA}
+      {PhD in Electrical \& Computer Engineering;  GPA: 3.61/4.0}{Aug. 2000 -- May 2006}
+      \resumeItemListStart
+        \resumeItem{Dissertation}
+                {Scaling and Visualizing Network Data to Facilitate in Intrusion Detection Tasks}
+\begin{quote}
+               {Developed two systems that visualize packet header \& IDS data.  Visualization improved the efficiency at which attacks \& anomalies are identified by the network security analyst.}\end{quote}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Georgia Institute of Technology}{Atlanta, GA}
+      {Masters of Science in Electrical Engineering ;  GPA: 3.57/4.0}{Aug. 1998 -- May 2000}
+          \resumeSubheading
+      {University of Central Florida}{Orlando, FL}
+      {Bachelors of Science in Computer Engineering  ;  GPA: 3.8/4.0}{Aug. 1994 -- May 1998}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Selected Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {ADP}{Atlanta, GA}
+      {Data Scientist}{March 2016 - Present}
+      \resumeItemListStart
+        \resumeItem{Ventures/Monetization}
+          {A lead data scientist within ADP Ventures team, which developed and delivered new patented data products delivered via UI and API feeds serving real estate and capital markets. Product based on geo and sector insights by aggregating and anonymizing ADP\textsc{\char13}s payroll data of 30 million US employees.}
+
+                    \begin{quote} Led new efforts to machine datasets to observe and present employee workforce migration patterns down to the block level (patented product).\end{quote}
+                     \begin{quote}Collaborated with peers, Sr. Leadership and product owners to iterate products based on additional feedback from clients and sales team, resulting in the execution of ADP's data monetization strategy.\end{quote}
+                     \begin{quote}Managed data quality deliverables to identify missing and incomplete data, determined outliers to help remove noise and add additional signal furthering product reach.\end{quote}
+                      \begin{quote}Demonstrated examples of the potential for improved predictive models using ADP data versus Census data. Sales in the magnitude of millions for POCs.\end{quote}
+         \resumeItem{Open Data Science}
+          {Supported ADP Open Data science initiatives by researching and prototyping projects, questioning existing processes, updating and documenting findings, and educating peers, interns, business owners and third party vendors
+Former member of ADP's Data Science Innovation lab in partnership with Georgia Tech to select and mentor graduate students on various data science initiatives.}
+          
+        \resumeItem{Tech used}
+          {Hadoop, Hive, Spark (Python, some Scala), Python and libraries such as scikit-learn (KNN Clustering), Missing data imputation, NLP to classify companies (Word2Vec TFIDF), employee census geocoding, Unix shell scripting, bitbucket/github, Jupyter/IPython , confluence/wiki documentation, VIM, Tableau (EDA)}
+         
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Damballa, Inc.}{Atlanta, GA}
+      {Research Scientist}{Jun 2014 - Aug 2015}
+      \resumeItemListStart
+        \resumeItem{Infected Client Tracking Experiment}
+          {Analyzed malware botnet command \& control (c2) domain and malware network traffic using machine learning, domain attribution and classification to identify those that are malicious.}
+          \begin{quote}Discovered there was 50\% of IP address churn during the data exploration stage.\end{quote}
+          {Examined client query behavior by independently designing and coding experiments to test hypothesis. Used the results to come up with statistical features to classify clients that are following malicious domains specific to malware campaigns deployed by botnet operators. }
+        \resumeItem{Tech used}
+          {Mining DNS data, Map/reduce with python streaming api, hadoop, R (EDA and hierarchical clustering), LDA to topic model domains, Unix Shell scripting, GitHub, SQLITE, Jupyter/IPython.}
+         
+
+      \resumeItemListEnd
+
+
+
+
+    \resumeSubheading
+      {Georgia Tech-CAP Group}{Atlanta, GA}
+      {Visiting Scholar}{July 2009-Sep 2015}
+      \resumeItemListStart
+        \resumeItem{Visualizing Domain Reputation \& Attribution} 
+          {Leveraged DNS agility, used by malware command-and-control (C2) system, for reputation \& attribution.  Clustered domains on their network features and relationships, then visualize the most important relationships.  A security company\textsc{\char13}s passive DNS database was used to retrieve historic domain and IP information, sci-kit learn to perform clustering. }
+          \resumeItem{Tech used} {Python, D3.js, Github}
+          
+        \resumeItem{Parallel 3D Coordinate System}
+          {Research \& development in network security stereoscopic 3D visualization, machine learning for inexperienced users (command/navigation recommendation based on expert users), and user evaluation. More details in the publications. }
+          \resumeItem{Tech used} {Hping/Tcl, Wireshark, Snort IDS}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Georgia State University}{Atlanta, GA}
+      {Consultant}{Dec 2012-Apr 2013}
+      \resumeItemListStart
+        \resumeItem{CSEM Research}
+          {Research in the Internet\textsc{\char13}s role in Commercial Sexual Exploitation of Minors (CSEM), mostly self-supported.  Collaborated with Dr. Mary Finn at Georgia State University}
+
+        \resumeItem{Training}
+          {Educated \& trained investigators \& research assistants about the current communication technologies \& how they interface, assist with technology content-related questions in qualitative interview, assist with the collection \& analysis of web data.}
+          \resumeItem{Data Collection}{Scraped web forum discussion data HTML pages of over one year from 3 boards. Tokenized each post \& parameters (parent \& child posts, userid, subject, date, time, message) from each HTML page, storing into MongoDB using Python.}
+	\resumeItem{Tech used} 
+          {Performed tf-idf using Sci-kit learn \& presented top tfidf value words on all posts for all words.  E.g. Atlanta forum was 39K posts by 113K unique words. Used cluster analysis for classification results, along with professor feedback, to help reduce the dictionary.}
+      \resumeItemListEnd
+
+ % \resumeSubHeadingListEnd
+
+    \resumeSubheading
+      {Scientific Research Corporation}{Atlanta, GA}
+      {Engineer III}{Jan 2008-Jun 2009}
+      \resumeItemListStart
+        \resumeItem{Software Defined Radios}
+        {Assisted in developing an adaptive power control algorithm in Qualnet, validating a thorough network testing plan \& tested SRC\textsc{\char13}s revised Mobile Route (MANET software). }
+           \resumeItem{JTRS Training Network Analysis}
+        {Assessed the network loading for FCS training \& potential for JTRS radios \& waveforms to carry this load.  Researched current methods to mathematically analyze unicast \& geocast traffic for the system \& developed equations to calculate the load. }     
+        \resumeItem{SPAWAR SATCOM Analysis}
+        {SPAWAR SATCOM Analysis: Wrote functions generating VTRPE input files for varying frequencies, wind speed, sea conditions, for multiple prime number seeds.  Analyzed path loss vs. distance, difference \& average for varying altitudes to derive a general channel model to test Reliable Link Protocol (RLP) performance over the sea.}
+
+      \resumeItemListEnd
+
+ % \resumeSubHeadingListEnd
+  
+  	
+    \resumeSubheading
+      {Georgia Tech}{Atlanta, GA}
+      {Graduate Research Assistant}{Aug 2001-May 2006}
+      \resumeItemListStart
+        \resumeItem{Research topics}
+        {wireless communications, network security, \& visualization. }
+        \begin{quote}
+        Information visualization, designing GUIs, \& performing user study surveys.
+        \end{quote}
+        
+           \resumeItem{Network Security Data Visualization}
+        {Dealt with general visualization \& HCI issues of network security data - massive amount of data, scaling 65535 TCP \& UDP ports \& 4 billion possible IPv4 addresses, time scales for various activity detection. }     
+        \resumeItem{Tech and Data used}
+        {Visualized IDS data output (anomalous activity alerts) from the IDS s/w used on the Georgia Tech campus based on the security analysts tasks, goals \& challenges (Java and OpenGL).}
+
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+  
+
+
+%-----------PROJECTS-----------------
+\section{Talks/Teaching/Volunteer/Personal}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Talks}{}
+            \begin{quote}
+     \href{https://www.youtube.com/watch?v=j17ckY6sn5s&feature=youtu.be}{Docker for Data Science}, Atlanta Code Camp, Atlanta, October 2016
+        \end{quote}
+          \begin{quote}
+      Thematic panel session presenter: "Understanding the Role of the Internet in the Sale of Sex with Minors," M. Finn, L. Stalans, \& K. Abdullah.  2013 American Society of Criminology Meeting -- Expanding the Core: Neglected Crimes, Groups, Causes and Policy Approaches, November 20-23, 2013, Atlanta, GA, USA. 
+        \end{quote}
+     \resumeSubItem{Volunteer}        
+        { Mentor at Anidata (non-profit) in Atlanta, GA from Jan 2016 - July 2018.  Guided future data scientists on data projects that improve and benefit the community. Assisted in Python workshop, curriculum and teaching.}
+        
+        
+    \resumeSubItem{Hobbies}
+      { Olympic Weightlifting, Photography, Chorus, Road Biking, general diet/health/fitness }
+    \resumeSubItem{Bio}
+      {Kulsoom Abdullah is a Pakistani-American competitive Olympic Weightlifter and was \href{http://bit.ly/1n1SrIA}{Crossfit Level I certified}. Her website, \href{liftingcovered.com}{LiftingCovered.com} and \href{http://on.fb.me/205IeJH}{Facebook page} documents her experiences weightlifting in an effort to compete at U.S. national competitions.  She advocated competing in clothing that adheres to religious codes, opening the door for women from cultures around the world to compete and move beyond preconceived notions of gender, race, and religion.  Her efforts led to an invitation to \href{http://bit.ly/1JQ5vLK}{deliver remarks following then Secretary of State Hillary Clinton} at the U.S. State Department\textsc{\char13}s Eid ul Fitr reception 2011.  She represented Pakistan as the first female at the international level to compete at the 2011 World Weightlifting Championships.  She resides in Atlanta, GA and is currently taking a break from major competitions but continues to train. She continues to work for the empowerment of the marginalized by helping others supporting relevant causes.}
+
+  \resumeSubHeadingListEnd
+
+
+  \section*{Selected Publications and Reports}
+  \begin{enumerate}
+    \item \bibentry{NAVSEC}
+    \item \bibentry{6654828}
+     \item \bibentry{4533364}
+   \item \bibentry{9781593271435}
+   \item \bibentry{Abdullah:2007:SWI:1314333.1314343}
+   \item \bibentry{Abdullah:2006:TUH:1179576.1179587}
+   \item \bibentry{1607922}
+\item \bibentry{1532060}
+ \item \bibentry{1495940}
+ \item \bibentry{Conti:2004:PVF:1029208.1029216}
+\item \bibentry{GATECH-05-2002}
+\item \bibentry{GATECH-03-2002}
+  \end{enumerate}
+  
+
+  
+
+
+
+%
+%--------PROGRAMMING SKILLS------------
+%\section{Programming Skills}
+%  \resumeSubHeadingListStart
+%    \item{
+%      \textbf{Languages}{: Scala, Python, Javascript, C++, SQL, Java}
+%      \hfill
+%      \textbf{Technologies}{: AWS, Play, React, Kafka, GCE}
+%    }
+%  \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
