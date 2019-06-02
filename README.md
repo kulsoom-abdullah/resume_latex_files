@@ -7,7 +7,7 @@ From the description: *It uses the base latex templates and fonts to provide eas
 
 ## Modifications
 
-I have made some modifications, such as adding a publications section that references a .bib file, and allow the hyperlinks to show in a different font color from the default black text.  I also wanted to have sub indents in a list and used the `\begin{quote} \end{quote}` command to achieve this.
+I have made some modifications, such as adding a publications section that references a .bib file, and allow the hyperlinks to show in a different font color from the default black text.  I also wanted to have sub indents in a list.  I previously used the `\begin{quote} \end{quote}` command to achieve this and current version I use  an itemized list, `\begin{itemize}`, `\item` ... ` \end{itemize}` 
 
 I find Latex easier to work with v.s. Word when keeping formatting consistent, making edits and changes.  Hope this helps anyone out there!  
 
@@ -15,6 +15,4 @@ If you have any feedback, I welcome it.
 
 ## Image preview of the pages
 
-![Images of resume 1](https://github.com/kulsoom-abdullah/resume_latex_files/blob/master/images_preview/resume_page_1.png)
-![Images of resume 2](https://github.com/kulsoom-abdullah/resume_latex_files/blob/master/images_preview/resume_page_2.png)
-![Images of resume 3](https://github.com/kulsoom-abdullah/resume_latex_files/blob/master/images_preview/resume_page_3.png)
+![Images of resume 1](https://github.com/kulsoom-abdullah/resume_latex_files/blob/master/images_preview/resume.png)
