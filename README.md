@@ -15,4 +15,7 @@ If you have any feedback, I welcome it.
 
 ## Image preview of the pages
 
-![Images of resume 1](https://github.com/kulsoom-abdullah/resume_latex_files/blob/master/images_preview/resume.png)
+
+![Images of resume 1](https://github.com/kulsoom-abdullah/resume_latex_files/blob/master/images_preview/resume_page_1.png)
+![Images of resume 2](https://github.com/kulsoom-abdullah/resume_latex_files/blob/master/images_preview/resume_page_2.png)
+![Images of resume 3](https://github.com/kulsoom-abdullah/resume_latex_files/blob/master/images_preview/resume_page_3.png)
